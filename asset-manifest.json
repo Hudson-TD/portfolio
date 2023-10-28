@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/module_twenty_challenge_hudsontd/static/css/main.7bdafd26.css",
-    "main.js": "/module_twenty_challenge_hudsontd/static/js/main.09ea1f95.js",
-    "static/media/placeholder.pdf": "/module_twenty_challenge_hudsontd/static/media/placeholder.13d1dad3fae8a8c05c3d.pdf",
-    "index.html": "/module_twenty_challenge_hudsontd/index.html",
-    "main.7bdafd26.css.map": "/module_twenty_challenge_hudsontd/static/css/main.7bdafd26.css.map",
-    "main.09ea1f95.js.map": "/module_twenty_challenge_hudsontd/static/js/main.09ea1f95.js.map"
+    "main.css": "/portfolio/static/css/main.7bdafd26.css",
+    "main.js": "/portfolio/static/js/main.414b9766.js",
+    "static/media/placeholder.pdf": "/portfolio/static/media/placeholder.13d1dad3fae8a8c05c3d.pdf",
+    "index.html": "/portfolio/index.html",
+    "main.7bdafd26.css.map": "/portfolio/static/css/main.7bdafd26.css.map",
+    "main.414b9766.js.map": "/portfolio/static/js/main.414b9766.js.map"
   },
   "entrypoints": [
     "static/css/main.7bdafd26.css",
-    "static/js/main.09ea1f95.js"
+    "static/js/main.414b9766.js"
   ]
 }
