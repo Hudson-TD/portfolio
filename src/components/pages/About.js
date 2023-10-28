@@ -1,9 +1,7 @@
 import React from "react";
-import { Heading, Center, Box, Image, Text, Badge  } from "@chakra-ui/react";
+import { Heading, Center, Box, Image, Text, Badge } from "@chakra-ui/react";
 
 export default function About() {
-
-
   return (
     <>
       <Box my={6}>
@@ -19,8 +17,8 @@ export default function About() {
             id="avatarBackground"
             borderRadius="full"
             boxSize="250px"
-            src="sticker.png"
-            alt="Tyler Dale Hudson"
+            src="https://i.ibb.co/tpdPkc6/sticker.png"
+            alt="Tyler Hudson"
             mb={8}
           />
         </Center>
@@ -44,21 +42,21 @@ export default function About() {
         <Center>
           <Text id="aboutMeText" fontSize="2xl" w={750} mt={12} align="center">
             Thank you for taking the time to visit my website! I am a driven and
-            motivated individual looking to break into a career in web
-            development. I am an avid PC enthusiast (gaming & building) and love
-            learning new things.
+            motivated individual looking to transition into a career in web
+            development. I am a firm believer that we can do whatever we want in
+            life with enough dicipline, effort, and practice.
             <br />
             <Box>
               <Center>-</Center>
             </Box>
             <br />I have a bachelors degree in business from the University of
-            South Carolina where I majored in marketing. I am currently
-            participating in the Georgia Tech Full-Stack coding bootcamp and I
-            am on track to finish and recieve my certification in December of
-            2022. In addition to this prospective certification, I have 4+ years
-            of experience in the tech space, primarily in a technical support
-            capacity. I want to take the next step and acquire the skills needed
-            to help build and support complex web applications.
+            South Carolina where I majored in marketing. I am also a graduate of
+            Georgia Institute of Technology's sponsored full stack web
+            development bootcamp. In addition to this prospective certification,
+            I have 5+ years of work experience in the technology space,
+            primarily operating as a technical support manager. My love of
+            technology and problem solving introduced me to the idea of pursing
+            development as a career.
           </Text>
         </Center>
       </Box>

@@ -87,12 +87,8 @@ export default function Resume() {
             </h2>
             <AccordionPanel pb={4}>
               <ul>
-                <li>NodeJS</li>
+                <li>Node.js</li>
                 <li>Express</li>
-                <li>RESTful API</li>
-                <br />
-                <li>Model View Controller (MVC)</li>
-                <li>Progressive Web Applications (PWA)</li>
               </ul>
             </AccordionPanel>
           </AccordionItem>

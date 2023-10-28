@@ -10,7 +10,6 @@ import {
   Stack,
   Text,
   Divider,
-  ButtonGroup,
   Button,
   UnorderedList,
   ListItem,
@@ -22,7 +21,7 @@ export default function Portfolio() {
       <Box my={6}>
         <Center>
           <Heading as="h3" size="lg" noOfLines={1}>
-           Work and contributions:
+            Work and contributions:
           </Heading>
         </Center>
       </Box>
@@ -47,47 +46,35 @@ export default function Portfolio() {
               </Text>
               <Text fontSize="2xl">Technologies Used:</Text>
               <UnorderedList>
-                <ListItem>JQuery UI</ListItem>
+                <ListItem>JQuery</ListItem>
                 <ListItem>Moment.js</ListItem>
-                <ListItem>TailwindCSS</ListItem>
+                <ListItem>Tailwind CSS</ListItem>
                 <ListItem>TheMealDB API</ListItem>
                 <ListItem>TheCocktailDB API</ListItem>
               </UnorderedList>
             </Stack>
           </CardBody>
           <Divider />
-          <CardFooter>
-            <ButtonGroup spacing="2">
+          <Center>
+            <CardFooter>
               <Button
                 variant="solid"
-                colorScheme="purple"
-                type="submit"
-                onClick={() => {
-                  window.open(
-                    "https://crhinesmith.github.io/alDente/index.html"
-                  );
-                }}
-              >
-                Visit App
-              </Button>
-              <Button
-                variant="ghost"
                 colorScheme="purple"
                 type="submit"
                 onClick={() => {
                   window.open("https://github.com/crhinesmith/alDente");
                 }}
               >
-                Repository
+                Visit Repository
               </Button>
-            </ButtonGroup>
-          </CardFooter>
+            </CardFooter>
+          </Center>
         </Card>
 
         <Card maxW="sm" mt={4}>
           <CardBody>
             <Image
-              src="JATE.gif"
+              src="https://i.ibb.co/7CgJNkt/JATE.gif"
               alt="J.A.T.E Just Another Text Editor"
               borderRadius="lg"
               class="cardImage"
@@ -111,20 +98,10 @@ export default function Portfolio() {
             </Stack>
           </CardBody>
           <Divider />
-          <CardFooter>
-            <ButtonGroup spacing="2">
+          <Center>
+            <CardFooter>
               <Button
                 variant="solid"
-                colorScheme="purple"
-                type="submit"
-                onClick={() => {
-                  window.open("https://secret-citadel-27288.herokuapp.com/");
-                }}
-              >
-                Visit App
-              </Button>
-              <Button
-                variant="ghost"
                 colorScheme="purple"
                 type="submit"
                 onClick={() => {
@@ -133,10 +110,10 @@ export default function Portfolio() {
                   );
                 }}
               >
-                Repository
+                Visit Repository
               </Button>
-            </ButtonGroup>
-          </CardFooter>
+            </CardFooter>
+          </Center>
         </Card>
 
         <Card maxW="sm" mt={4}>
@@ -163,22 +140,10 @@ export default function Portfolio() {
             </Stack>
           </CardBody>
           <Divider />
-          <CardFooter>
-            <ButtonGroup spacing="2">
+          <Center>
+            <CardFooter>
               <Button
                 variant="solid"
-                colorScheme="purple"
-                type="submit"
-                onClick={() => {
-                  window.open(
-                    "https://hudson-td.github.io/module_six_challenge_hudsontd/"
-                  );
-                }}
-              >
-                Visit App
-              </Button>
-              <Button
-                variant="ghost"
                 colorScheme="purple"
                 type="submit"
                 onClick={() => {
@@ -187,10 +152,10 @@ export default function Portfolio() {
                   );
                 }}
               >
-                Repository
+                Visit Repository
               </Button>
-            </ButtonGroup>
-          </CardFooter>
+            </CardFooter>
+          </Center>
         </Card>
       </div>
 
@@ -198,13 +163,13 @@ export default function Portfolio() {
         <Card maxW="sm" mt={4}>
           <CardBody>
             <Image
-              src="MeowWoof.gif"
+              src="https://images.pexels.com/photos/3576792/pexels-photo-3576792.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               alt="gif of the website homepage"
               borderRadius="lg"
               class="cardImage"
             />
             <Stack mt="6" spacing="3">
-              <Heading size="md">MeowWoof</Heading>
+              <Heading size="md">Animal Rescue Clone</Heading>
               <Text>
                 This application is designed to help with pet shelters of any
                 size. The major functions of the application include a search
@@ -219,42 +184,32 @@ export default function Portfolio() {
                 <ListItem>Node.js</ListItem>
                 <ListItem>JQuery UI</ListItem>
                 <ListItem>Tailwind CSS</ListItem>
-                <ListItem>sendgrid</ListItem>
+                <ListItem>Twilio sendgrid</ListItem>
                 <ListItem>Sequelize</ListItem>
               </UnorderedList>
             </Stack>
           </CardBody>
           <Divider />
-          <CardFooter>
-            <ButtonGroup spacing="2">
+          <Center>
+            <CardFooter>
               <Button
                 variant="solid"
-                colorScheme="purple"
-                type="submit"
-                onClick={() => {
-                  window.open("https://shielded-harbor-87736.herokuapp.com/");
-                }}
-              >
-                Visit App
-              </Button>
-              <Button
-                variant="ghost"
                 colorScheme="purple"
                 type="submit"
                 onClick={() => {
                   window.open("https://github.com/TeryKing/Project-MeowWoof");
                 }}
               >
-                Repository
+                Visit Repository
               </Button>
-            </ButtonGroup>
-          </CardFooter>
+            </CardFooter>
+          </Center>
         </Card>
 
         <Card maxW="sm" mt={4}>
           <CardBody>
             <Image
-              src="JSQuizGame.PNG"
+              src="https://i.ibb.co/LrJpsK0/JSQuiz-Game.png"
               alt="JavaScript Quiz Homepage"
               borderRadius="lg"
               class="cardImage"
@@ -272,27 +227,15 @@ export default function Portfolio() {
               <UnorderedList>
                 <ListItem>JavaScript</ListItem>
                 <ListItem>HTML</ListItem>
-                <ListItem>Vanilla CSS</ListItem>
+                <ListItem>CSS</ListItem>
               </UnorderedList>
             </Stack>
           </CardBody>
           <Divider />
-          <CardFooter>
-            <ButtonGroup spacing="2">
+          <Center>
+            <CardFooter>
               <Button
                 variant="solid"
-                colorScheme="purple"
-                type="submit"
-                onClick={() => {
-                  window.open(
-                    "https://hudson-td.github.io/module_four_challenge_hudsontd/"
-                  );
-                }}
-              >
-                Visit App
-              </Button>
-              <Button
-                variant="ghost"
                 colorScheme="purple"
                 type="submit"
                 onClick={() => {
@@ -301,16 +244,16 @@ export default function Portfolio() {
                   );
                 }}
               >
-                Repository
+                Visit Repository
               </Button>
-            </ButtonGroup>
-          </CardFooter>
+            </CardFooter>
+          </Center>
         </Card>
 
         <Card maxW="sm" mt={4}>
           <CardBody>
             <Image
-              src="NoteTaker.PNG"
+              src="https://i.ibb.co/gyHdmr9/Note-Taker.png"
               alt="Express.js note taking website"
               borderRadius="lg"
               class="cardImage"
@@ -328,29 +271,17 @@ export default function Portfolio() {
               </Text>
               <Text fontSize="2xl">Technologies Used:</Text>
               <UnorderedList>
-                <ListItem>Express.js</ListItem>
                 <ListItem>JavaScript</ListItem>
+                <ListItem>Express.js</ListItem>
                 <ListItem>HTML</ListItem>
               </UnorderedList>
             </Stack>
           </CardBody>
           <Divider />
-          <CardFooter>
-            <ButtonGroup spacing="2">
+          <Center>
+            <CardFooter>
               <Button
                 variant="solid"
-                colorScheme="purple"
-                type="submit"
-                onClick={() => {
-                  window.open(
-                    "https://enigmatic-dusk-21030.herokuapp.com/notes"
-                  );
-                }}
-              >
-                Visit App
-              </Button>
-              <Button
-                variant="ghost"
                 colorScheme="purple"
                 type="submit"
                 onClick={() => {
@@ -359,10 +290,10 @@ export default function Portfolio() {
                   );
                 }}
               >
-                Repository
+                Visit Repository
               </Button>
-            </ButtonGroup>
-          </CardFooter>
+            </CardFooter>
+          </Center>
         </Card>
       </div>
     </>
