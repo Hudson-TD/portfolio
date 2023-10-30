@@ -52,11 +52,11 @@ export default function About() {
             <br />I have a bachelors degree in business from the University of
             South Carolina where I majored in marketing. I am also a graduate of
             Georgia Institute of Technology's sponsored full stack web
-            development bootcamp. In addition to this prospective certification,
-            I have 5+ years of work experience in the technology space,
-            primarily operating as a technical support manager. My love of
-            technology and problem solving introduced me to the idea of pursing
-            development as a career.
+            development bootcamp. In addition to this certification, I have 5+
+            years of work experience in the technology space, primarily
+            operating as a technical support manager. My love of technology and
+            problem solving introduced me to the idea of pursing development as
+            a career.
           </Text>
         </Center>
       </Box>

@@ -29,7 +29,7 @@ export default function Header() {
         <header>
           <Box m={10}>
             <Center>
-              <Heading  id="nameHeader" as="h2" size="2xl" noOfLines={1}>
+              <Heading id="nameHeader" as="h2" size="2xl" noOfLines={1}>
                 Tyler Hudson
               </Heading>
             </Center>

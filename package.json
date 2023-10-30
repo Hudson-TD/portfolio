@@ -2,7 +2,7 @@
   "name": "module_twenty_challenge_hudsontd",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Hudson-TD.github.io/module_twenty_challenge_hudsontd",
+  "homepage": "https://www.tylerhudson.dev/",
   "dependencies": {
     "@chakra-ui/react": "^2.4.1",
     "@emotion/react": "^11.10.5",

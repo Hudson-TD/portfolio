@@ -21,7 +21,58 @@ export default function Portfolio() {
       <Box my={6}>
         <Center>
           <Heading as="h3" size="lg" noOfLines={1}>
-            Work and contributions:
+            Live Projects:
+          </Heading>
+        </Center>
+      </Box>
+
+      <div class="cardGroup">
+        <Card maxW="sm" my={6}>
+          <CardBody>
+            <Image
+              src="https://i.ibb.co/JCcmQMp/battleship-img.jpg"
+              alt="battleship gameboard"
+              borderRadius="lg"
+              class="cardImage"
+            />
+            <Stack mt="6" spacing="3">
+              <Heading size="md"> Battleship</Heading>
+              <Text>
+                This application is my recreation and interpretation of the
+                classic game Battleship. It demonstrates my ability to work with
+                factory functions, create artificial intelligence via a computer
+                opponent, and keep track of state all with vanilla Javascript.
+              </Text>
+              <Text fontSize="2xl">Technologies Used:</Text>
+              <UnorderedList>
+                <ListItem>JavaScript</ListItem>
+                <ListItem>HTML</ListItem>
+                <ListItem>CSS</ListItem>
+                <ListItem>Webpack</ListItem>
+              </UnorderedList>
+            </Stack>
+          </CardBody>
+          <Divider />
+          <Center>
+            <CardFooter>
+              <Button
+                variant="solid"
+                colorScheme="purple"
+                type="submit"
+                onClick={() => {
+                  window.open("https://hudson-td.github.io/odin-battleship/");
+                }}
+              >
+                Visit App
+              </Button>
+            </CardFooter>
+          </Center>
+        </Card>
+      </div>
+      <Box my={6}>
+        <Center>
+          <Heading as="h3" size="lg" noOfLines={1}>
+            Other Work and Contributions:
           </Heading>
         </Center>
       </Box>

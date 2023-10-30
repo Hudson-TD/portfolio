@@ -1,6 +1,7 @@
 import React from "react";
 import { Box, Center, Text, Divider, Button, HStack } from "@chakra-ui/react";
 import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 export default function Footer() {
   return (
@@ -37,6 +38,16 @@ export default function Footer() {
                 leftIcon={<FaLinkedin />}
               >
                 LinkedIn
+              </Button>
+              <Button
+                type="submit"
+                onClick={() => {
+                  window.location.href = "mailto:tylerhudson96@gmail.com";
+                }}
+                colorScheme="purple"
+                leftIcon={<MdEmail />}
+              >
+                Email
               </Button>
             </HStack>
           </Center>

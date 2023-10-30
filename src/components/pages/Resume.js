@@ -27,7 +27,7 @@ export default function Resume() {
         <Center>
           <div id="resumeBtn" className="bottom-spacing">
             <a href={require("../../assets/placeholder.pdf")} download>
-              <h4>Click here to download my resume!</h4>
+              <h4>Download Resume (PDF)</h4>
             </a>
           </div>
         </Center>
