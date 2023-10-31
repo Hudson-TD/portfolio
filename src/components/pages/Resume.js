@@ -26,7 +26,7 @@ export default function Resume() {
       <Container mt={8} mb={20}>
         <Center>
           <div id="resumeBtn" className="bottom-spacing">
-            <a href={require("../../assets/resume.pdf")} download>
+            <a href={require("../../assets/Resume _Tyler_Hudson.pdf")} download>
               <h4>Download Resume (PDF)</h4>
             </a>
           </div>
